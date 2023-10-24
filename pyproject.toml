@@ -1,0 +1,18 @@
+[project]
+name = "ssbm"
+description = "ssbm"
+version = "0.1.0"
+authors = [
+    { name = "Andrei Zhlobich", email = "azhlobich@gmail.com" }
+]
+dependencies = [
+    "rich",
+    "ddsketch"
+]
+
+[project.scripts]
+ssbm = "ssbm.cli:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
